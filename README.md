@@ -1,27 +1,7 @@
----
-name: Azure Multimodal AI & LLM Processing Accelerator (Python)
-description: Build data processing pipelines with Azure AI Services + LLMs
-languages:
-- python
-- bicep
-- azdeveloper
-products:
-- azure-openai
-- document-intelligence
-- azure-speech
-- azure-content-understanding
-- azure-app-service
-- azure-functions
-- azure-storage-accounts
-- azure-key-vault
-- azure
-page_type: sample
-urlFragment: multimodal-ai-llm-processing-accelerator
 
----
 <!-- YAML front-matter schema: https://review.learn.microsoft.com/en-us/help/contribute/samples/process/onboarding?branch=main#supported-metadata-fields-for-readmemd -->
 
-# Azure Multimodal AI + LLM Processing Accelerator
+# Aether Flow – Multimodal GenAI Processing Pipeline on Azure                                               
 
 ##### Table of Contents
 
@@ -447,28 +427,3 @@ To run the demo app locally, follow these steps:
 
 When using the demo web app, all requests will be sent to the function app (set by `FUNCTION_HOST`) for processing. If any of these requests fail and the gradio web app shows a 403 error as the result, it could be because the function host is not running or is unavailable, or that the specific pipeline that the request was sent to is not loaded/running on that function server. Review the previous function app section for more details on why this might occur and how to troubleshoot it.
 
-# Credits
-
-- [Michael Tremeer](https://github.com/michaeltremeer)
-
-# Contributing
-
-This project welcomes contributions and suggestions. Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit <https://cla.opensource.microsoft.com>.
-
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
-
-# Trademarks
-
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft
-trademarks or logos is subject to and must follow
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
-Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
-Any use of third-party trademarks or logos are subject to those third-party's policies.
